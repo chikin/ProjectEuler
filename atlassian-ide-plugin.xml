@@ -1,0 +1,29 @@
+<atlassian-ide-plugin>
+  <project-configuration>
+    <servers>
+      <jira>
+        <server-id>cf53e289-76d1-429a-8f63-1e98e22f7c3e</server-id>
+        <name>Jira at home</name>
+        <url>http://192.168.1.10:8080</url>
+        <shared>false</shared>
+      </jira>
+      <bamboo>
+        <server-id>cc8af58a-9f7c-494b-9b12-851e14774dca</server-id>
+        <name>Bamboo at home</name>
+        <url>http://192.168.1.10:8085</url>
+        <shared>false</shared>
+        <use-favourites>false</use-favourites>
+        <bamboo2>true</bamboo2>
+        <plans />
+      </bamboo>
+      <fisheye>
+        <server-id>10e57364-05aa-47ed-a8d5-a2b74bbed30e</server-id>
+        <name>Fisheye at home</name>
+        <url>http://192.168.1.10:8060</url>
+        <shared>false</shared>
+      </fisheye>
+    </servers>
+    <default-fisheye-server>10e57364-05aa-47ed-a8d5-a2b74bbed30e</default-fisheye-server>
+    <default-jira-server>cf53e289-76d1-429a-8f63-1e98e22f7c3e</default-jira-server>
+  </project-configuration>
+</atlassian-ide-plugin>
