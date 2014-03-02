@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17287997-624e-4a7d-b645-3cf8516797a3" name="Default" comment="Finished Problem 1.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twhitlock/Problem1.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CodeAnthemTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/twhitlock/ProjectEulerGroovy.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="17287997-624e-4a7d-b645-3cf8516797a3" name="Default" comment="Finished Problem 3.&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twhitlock/CalculatePrimesLessThanX.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twhitlock/PriorityQueue.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem7.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twhitlock/Problem7.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Scala.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/highlighting.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twhitlock/testWorksheet.sc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/twhitlock/ProjectEuler.scala" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/twhitlock/Problem1.groovy" afterPath="$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem1.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/twhitlock/Problem2.groovy" afterPath="$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem2.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/twhitlock/Problem3.groovy" afterPath="$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem3.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/twhitlock/Problem4.groovy" afterPath="$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem4.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc.iml" afterPath="$PROJECT_DIR$/misc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$USER_HOME$/.griffon/" />
@@ -66,6 +70,23 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/twhitlock/Problem7.scala" line="12" class="Problem7.scala" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -75,28 +96,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Problem1.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/twhitlock/Problem1.groovy">
+      <file leaf-file-name="PriorityQueue.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twhitlock/PriorityQueue.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.16025642" vertical-offset="0" max-vertical-offset="510">
+            <state line="6" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractCallSite.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/tools/groovy-2.2.2/lib/groovy-2.2.2.jar!/org/codehaus/groovy/runtime/callsite/AbstractCallSite.class">
+      <file leaf-file-name="testWorksheet.sc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/twhitlock/testWorksheet.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="28" selection-start="5051" selection-end="5051" vertical-scroll-proportion="-5.36" vertical-offset="946" max-vertical-offset="1725">
-              <folding />
+            <state line="13" column="37" selection-start="402" selection-end="402" vertical-scroll-proportion="0.09774436" vertical-offset="130" max-vertical-offset="855">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectEuler.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twhitlock/ProjectEuler.scala">
+      <file leaf-file-name="CalculatePrimesLessThanX.sc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twhitlock/CalculatePrimesLessThanX.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+            <state line="39" column="28" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.87969923" vertical-offset="0" max-vertical-offset="720">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem7.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twhitlock/Problem7.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="34" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -109,12 +143,25 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/twhitlock/ProjectEuler.scala" />
         <option value="$PROJECT_DIR$/src/com/twhitlock/ProjectEulerGroovy.groovy" />
         <option value="$PROJECT_DIR$/src/com/twhitlock/Problem1.groovy" />
+        <option value="$PROJECT_DIR$/src/com/twhitlock/Problem2.groovy" />
+        <option value="$PROJECT_DIR$/src/com/twhitlock/Problem3.groovy" />
+        <option value="$PROJECT_DIR$/src/com/twhitlock/Problem4.groovy" />
+        <option value="$PROJECT_DIR$/src/com/twhitlock/Problem7.groovy" />
+        <option value="$PROJECT_DIR$/src/com/twhitlock/PrimeGenerator.groovy" />
+        <option value="$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem1.groovy" />
+        <option value="$PROJECT_DIR$/src/com/twhitlock/PriorityQueue.scala" />
+        <option value="$PROJECT_DIR$/src/com/twhitlock/Problem7.scala" />
+        <option value="$PROJECT_DIR$/src/com/twhitlock/CalculatePrimesLessThanX.sc" />
+        <option value="$PROJECT_DIR$/src/com/twhitlock/testWorksheet.sc" />
       </list>
     </option>
   </component>
@@ -130,7 +177,24 @@
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
-      <profile-state />
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -162,7 +226,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,16 +264,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.scala.compiler.ScalaApplicationSettingsForm" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -219,16 +283,18 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/tools/scala-2.10.3/lib/typesafe-config.jar!/" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="SearchEverywhereHistory" value="[" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/twhitlock" />
     </key>
   </component>
-  <component name="RunManager" selected="Groovy.Problem1">
+  <component name="RunManager" selected="Scala Console.Scala Console">
     <configuration default="false" name="Problem1" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="misc" />
       <setting name="path" value="file://$PROJECT_DIR$/src/com/twhitlock/Problem1.groovy" />
@@ -236,6 +302,66 @@
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src/com/twhitlock" />
       <setting name="debug" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Problem2" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="misc" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/com/twhitlock/Problem2.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/com/twhitlock" />
+      <setting name="debug" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Problem3" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="misc" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/com/twhitlock/Problem3.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/com/twhitlock" />
+      <setting name="debug" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Problem4" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="misc" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/com/twhitlock/Problem4.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/com/twhitlock" />
+      <setting name="debug" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+      <module name="misc" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="consoleArgs" value="-usejavacp" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
@@ -263,6 +389,13 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
+      <module name="" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="consoleArgs" value="-usejavacp" />
       <method />
     </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
@@ -492,12 +625,20 @@
       <setting name="showProgressMessages" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Groovy.Problem1" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.Problem2" />
+      <item index="2" class="java.lang.String" itemvalue="Groovy.Problem3" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.Problem4" />
+      <item index="4" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Groovy.Problem1" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+        <item index="1" class="java.lang.String" itemvalue="Groovy.Problem4" />
+        <item index="2" class="java.lang.String" itemvalue="Groovy.Problem3" />
+        <item index="3" class="java.lang.String" itemvalue="Groovy.Problem2" />
+        <item index="4" class="java.lang.String" itemvalue="Groovy.Problem1" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -530,45 +671,84 @@
       <changelist id="17287997-624e-4a7d-b645-3cf8516797a3" name="Default" comment="" />
       <created>1284695133452</created>
       <updated>1284695133452</updated>
-      <workItem from="1393451470125" duration="1302000" />
+      <workItem from="1393451470125" duration="13025000" />
+      <workItem from="1393609649012" duration="18443000" />
+      <workItem from="1393696607856" duration="2003000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished Problem 1.">
+      <created>1393453071301</created>
+      <updated>1393453071301</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished Problem 2.&#10;">
+      <created>1393453556299</created>
+      <updated>1393453556299</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finished Problem 3.&#10;">
+      <created>1393462567675</created>
+      <updated>1393462567675</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finished Problem 4.&#10;">
+      <created>1393478953961</created>
+      <updated>1393478953961</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1302000" />
+    <option name="totallyTimeSpent" value="33471000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="22" width="1400" height="832" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24889544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20324005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -584,6 +764,11 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Finished Problem 1." />
+    <MESSAGE value="Finished Problem 2.&#10;" />
+    <MESSAGE value="Finished Problem 3.&#10;" />
+    <MESSAGE value="Finished Problem 4.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Problem 4.&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -646,38 +831,132 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/Problem1.groovy">
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/PriorityQueue.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120">
+        <state line="6" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/ProjectEuler.scala">
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/testWorksheet.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+        <state line="47" column="0" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1050">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/Problem7.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/ProjectEuler.scala">
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem7.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem2.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem3.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="1" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem1.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/tools/groovy-2.2.2/lib/groovy-2.2.2.jar!/org/codehaus/groovy/runtime/callsite/AbstractCallSite.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="28" selection-start="5051" selection-end="5051" vertical-scroll-proportion="-5.36" vertical-offset="946" max-vertical-offset="1725">
+        <state line="73" column="28" selection-start="5051" selection-end="5051" vertical-scroll-proportion="-5.36" vertical-offset="946" max-vertical-offset="1725" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/math/BigDecimal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="32" selection-start="5399" selection-end="5399" vertical-scroll-proportion="0.0" vertical-offset="1424" max-vertical-offset="4050" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem4.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="38" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem2.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem7.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem3.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="1" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem1.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/tools/scala-2.10.3/lib/scala-library.jar!/scala/collection/mutable/PriorityQueue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="15" selection-start="784" selection-end="784" vertical-scroll-proportion="0.11127596" vertical-offset="0" max-vertical-offset="674" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/PriorityQueue.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/Problem1.groovy">
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/Problem7.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.16025642" vertical-offset="0" max-vertical-offset="510">
+        <state line="6" column="34" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/tools/scala-2.10.3/lib/scala-library.jar!/scala/collection/IndexedSeqOptimized.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="15" selection-start="208" selection-end="208" vertical-scroll-proportion="0.06656805" vertical-offset="0" max-vertical-offset="676">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/CalculatePrimesLessThanX.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="28" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.87969923" vertical-offset="0" max-vertical-offset="720">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/tools/scala-2.10.3/lib/scala-library.jar!/scala/package.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="7" selection-start="3274" selection-end="3274" vertical-scroll-proportion="0.44847605" vertical-offset="456" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/testWorksheet.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="37" selection-start="402" selection-end="402" vertical-scroll-proportion="0.09774436" vertical-offset="130" max-vertical-offset="855">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -699,7 +978,7 @@
       <state key="Copyright.UI" />
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Scala (misc)|Scala</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -723,6 +1002,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -734,7 +1014,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>misc</last-edited>
+          <last-edited>Scala|misc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -747,6 +1027,7 @@
       <state key="ProjectJDKs.UI" />
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Scala</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

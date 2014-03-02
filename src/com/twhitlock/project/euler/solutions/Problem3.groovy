@@ -1,4 +1,4 @@
-package com.twhitlock
+package com.twhitlock.project.euler.solutions
 
 /**
  * The prime factors of 13195 are 5, 7, 13 and 29.
