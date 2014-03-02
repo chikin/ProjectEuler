@@ -30,17 +30,17 @@ def calculatePrimesLessThanN(n: BigInt) = {
     count = count + 1
   }
   val array: Array[(BigInt, BigInt)] = x.toArray
-  val sortedArray = array.sortBy(orderByPrimeNumber)
-  var sum = BigInt.int2bigInt(0)
-  sortedArray.foreach{ arg =>
+//  val sortedArray = array.sortBy(orderByPrimeNumber)
+//  var sum = BigInt.int2bigInt(0)
+  array.foreach{ arg =>
     print(arg._1.toString() +",")
-    sum = sum + arg._1
+//    sum = sum + arg._1
   }
   println("")
-  println(sum)
+//  println(sum)
   //  println(x)
 }
-calculatePrimesLessThanN(2000000)
+calculatePrimesLessThanN(BigInt("10000000000"))
 
 
 
