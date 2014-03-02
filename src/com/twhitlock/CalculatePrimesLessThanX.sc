@@ -3,7 +3,7 @@
  */
 
 import scala.collection.mutable
-def nextPrimeAfter(prime: Int, x: mutable.PriorityQueue[(Int, Int)]) {
+def nextPrimeAfter(prime: BigInt, x: mutable.PriorityQueue[(BigInt, BigInt)]) {
   if(!x.isEmpty && x.head._2 > prime) {
     x.enqueue(prime -> prime * prime)
   } else {
@@ -19,24 +19,26 @@ def nextPrimeAfter(prime: Int, x: mutable.PriorityQueue[(Int, Int)]) {
   }
 }
 
-def calculatePrimesLessThanN(n: Int) ={
-  def orderByNextMultiple(t2: (Int, Int)) = -t2._2
-  def orderByPrimeNumber(t2: (Int, Int)) = t2._1
-  val x = new mutable.PriorityQueue[(Int, Int)]()(Ordering.by(orderByNextMultiple))
-  x.enqueue(2 -> 4)
+def calculatePrimesLessThanN(n: BigInt) = {
+  def orderByNextMultiple(t2: (BigInt, BigInt)) = -t2._2
+  def orderByPrimeNumber(t2: (BigInt, BigInt)) = t2._1
+  val x = new mutable.PriorityQueue[(BigInt, BigInt)]()(Ordering.by(orderByNextMultiple))
+  x.enqueue(BigInt.int2bigInt(2) -> BigInt.int2bigInt(4))
   var count = 3
   while(count < n) {
     nextPrimeAfter(count, x)
     count = count + 1
   }
-  val array: Array[(Int, Int)] = x.toArray
+  val array: Array[(BigInt, BigInt)] = x.toArray
   val sortedArray = array.sortBy(orderByPrimeNumber)
   sortedArray.foreach{ arg =>
-    print(arg._1 +",")
+    print(arg._1.toString() +",")
   }
   println("")
   //  println(x)
 }
 calculatePrimesLessThanN(20)
+
+
 
 
