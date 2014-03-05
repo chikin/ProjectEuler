@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17287997-624e-4a7d-b645-3cf8516797a3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/twhitlock/PriorityQueue.scala" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem9.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$USER_HOME$/.griffon/" />
@@ -68,13 +68,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="testWorksheet.sc" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="testWorksheet.sc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twhitlock/testWorksheet.sc">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="29" selection-start="743" selection-end="760" vertical-scroll-proportion="0.42959428" vertical-offset="0" max-vertical-offset="795">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem9.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem9.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="30" selection-start="530" selection-end="530" vertical-scroll-proportion="0.5769231" vertical-offset="0" max-vertical-offset="468">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/com/twhitlock/testWorksheet.sc" />
         <option value="$PROJECT_DIR$/src/com/twhitlock/CalculatePrimesLessThanX.sc" />
         <option value="$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem8.groovy" />
+        <option value="$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem9.groovy" />
       </list>
     </option>
   </component>
@@ -226,6 +236,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectEuler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectEuler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twhitlock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -258,18 +290,7 @@
       <recent name="$PROJECT_DIR$/src/com/twhitlock" />
     </key>
   </component>
-  <component name="RunManager" selected="Groovy.Problem8">
-    <configuration default="false" name="Problem2" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="misc" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/com/twhitlock/Problem2.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/com/twhitlock" />
-      <setting name="debug" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Groovy.Problem9">
     <configuration default="false" name="Problem3" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="misc" />
       <setting name="path" value="file://$PROJECT_DIR$/src/com/twhitlock/Problem3.groovy" />
@@ -322,6 +343,17 @@
     <configuration default="false" name="Problem8" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="misc" />
       <setting name="path" value="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem8.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions" />
+      <setting name="debug" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Problem9" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="misc" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem9.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions" />
@@ -584,19 +616,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Groovy.Problem2" />
-      <item index="1" class="java.lang.String" itemvalue="Groovy.Problem3" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.Problem4" />
-      <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.Problem8" />
+      <item index="0" class="java.lang.String" itemvalue="Groovy.Problem3" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.Problem4" />
+      <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.Problem8" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy.Problem9" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Groovy.Problem8" />
-        <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-        <item index="2" class="java.lang.String" itemvalue="Groovy.Problem4" />
-        <item index="3" class="java.lang.String" itemvalue="Groovy.Problem3" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.Problem2" />
+        <item index="0" class="java.lang.String" itemvalue="Groovy.Problem9" />
+        <item index="1" class="java.lang.String" itemvalue="Groovy.Problem8" />
+        <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+        <item index="3" class="java.lang.String" itemvalue="Groovy.Problem4" />
+        <item index="4" class="java.lang.String" itemvalue="Groovy.Problem3" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -631,7 +663,7 @@
       <updated>1284695133452</updated>
       <workItem from="1393451470125" duration="13025000" />
       <workItem from="1393609649012" duration="18443000" />
-      <workItem from="1393696607856" duration="6081000" />
+      <workItem from="1393696607856" duration="6569000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Problem 1.">
       <created>1393453071301</created>
@@ -665,11 +697,15 @@
       <created>1393804416249</created>
       <updated>1393804416249</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Removing an unused class">
+      <created>1393804632320</created>
+      <updated>1393804632320</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37549000" />
+    <option name="totallyTimeSpent" value="38037000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -693,7 +729,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="22" width="1400" height="832" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -748,7 +784,8 @@
     <MESSAGE value="Changing from using ints to bigInts to handle larger numbers" />
     <MESSAGE value="Solving Problem 10" />
     <MESSAGE value="Solving Problem 8&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solving Problem 8&#10;" />
+    <MESSAGE value="Removing an unused class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing an unused class" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -920,6 +957,13 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twhitlock/project/euler/solutions/Problem9.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="530" selection-end="530" vertical-scroll-proportion="0.5769231" vertical-offset="0" max-vertical-offset="468">
+          <folding />
         </state>
       </provider>
     </entry>
