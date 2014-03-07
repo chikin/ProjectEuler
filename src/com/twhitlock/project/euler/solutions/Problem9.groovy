@@ -18,6 +18,7 @@ for(int a = 0; a < 1000 ; a++) {
         def c = Math.sqrt(aSquared +bSquared )
         if(a + b + c == 1000) {
             println "a: ${a} b: ${b} c: ${c}"
+            println "a*b*c ${a*b*c}"
             break
         }
     }
