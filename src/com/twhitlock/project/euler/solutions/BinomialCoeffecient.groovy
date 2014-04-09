@@ -14,4 +14,4 @@ for(int i = 0; i < gridSize; i++) {
     paths /= i + 1
 }
 
-println "There are ${paths} through a ${gridSize} grid"
+println "There are ${paths} through a ${gridSize}x${gridSize} grid"
